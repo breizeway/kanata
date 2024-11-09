@@ -1,0 +1,130 @@
+;; RYNO internal keyboard config with homerow mods and homerow arrows
+
+;; If there is trouble with Automator, remove and re-add permissions in System Settings > Privacy & Security > Input Monitoring
+
+(defcfg
+  process-unmapped-keys yes
+)
+(defsrc
+  esc   f1    f2    f3    f4    f5    f6    f7    f8    f9    f10   f11   f12
+
+  `     1     2     3     4     5     6     7     8     9     0     -     =     bspc
+  tab   q     w     e     r     t     y     u     i     o     p     [     ]     \
+  caps  a     s     d     f     g     h     j     k     l     ;     '     ret
+  lsft  z     x     c     v     b     n     m     ,     .     /     rsft
+  fn    lctl  lalt  lmet              spc               rmet  ralt
+              f16   f17                                 f18   f19
+              f20   f21                                 f22   f23
+)
+(defvar
+  tap-time 180
+  hold-time 180
+  td-tap-time 200
+)
+(defalias
+  spl (tap-hold 0 $hold-time spc (layer-while-held super))
+  fnlA (tap-hold $tap-time $hold-time fn (layer-while-held function-apple))
+
+  meh (multi lsft lalt lctl)
+  hyper (multi lsft lalt lctl lmet)
+
+  esc (tap-dance $td-tap-time ((tap-hold $tap-time $hold-time esc @hyper) (caps-word 2000) caps))
+  a (tap-hold $tap-time $hold-time a lsft)
+  s (tap-hold $tap-time $hold-time s lctl)
+  d (tap-hold $tap-time $hold-time d lalt)
+  f (tap-hold $tap-time $hold-time f lmet)
+  g (tap-hold $tap-time $hold-time g @meh)
+  h (tap-hold $tap-time $hold-time h @meh)
+  j (tap-hold $tap-time $hold-time j rmet)
+  k (tap-hold $tap-time $hold-time k ralt)
+  l (tap-hold $tap-time $hold-time l rctl)
+  ; (tap-hold $tap-time $hold-time ; rsft)
+  ' (tap-hold $tap-time $hold-time ' @hyper)
+  ret (tap-hold $tap-time $hold-time ret @hyper)
+  ` (tap-hold $tap-time $hold-time ` lsft)
+  \ (tap-hold $tap-time $hold-time \ lctl)
+  - (tap-hold $tap-time $hold-time - lalt)
+  = (tap-hold $tap-time $hold-time = lmet)
+  lft (tap-hold $tap-time $hold-time lft rmet)
+  down (tap-hold $tap-time $hold-time down ralt)
+  up (tap-hold $tap-time $hold-time up rctl)
+  rght (tap-hold $tap-time $hold-time rght rsft)
+
+  lsrt (tap-hold $tap-time $hold-time ret lsft)
+  rsrt (tap-hold $tap-time $hold-time ret rsft)
+
+  s1a (multi @hyper e)
+  s1b XX
+  s2a (multi @hyper c)
+  s2b (multi @hyper m)
+  s3a mute
+  s3b (multi @hyper n)
+  s4a (multi @hyper p)
+  s4b (multi @hyper ;)
+  s5 (multi lmet z)
+  s6 (multi @hyper m)
+  s7 (multi @hyper n)
+  s8 (multi lmet lsft z)
+
+  lalt (tap-dance $td-tap-time ((tap-hold $tap-time $hold-time @s1a lalt) @s1b))
+  lmet (tap-dance $td-tap-time ((tap-hold $tap-time $hold-time @s2a lmet) @s2b))
+  rmet (tap-dance $td-tap-time ((tap-hold $tap-time $hold-time @s3a rmet) @s3b))
+  ralt (tap-dance $td-tap-time ((tap-hold $tap-time $hold-time @s4a ralt) @s4b))
+  f16 (tap-dance $td-tap-time (@s1a @s1b))
+  f17 (tap-dance $td-tap-time ((tap-hold $tap-time $hold-time @s2a (layer-while-held function-moonlander)) @s2b))
+  f18 (tap-dance $td-tap-time ((tap-hold $tap-time $hold-time @s3a (layer-while-held function-moonlander)) @s3b))
+  f19 (tap-dance $td-tap-time (@s4a @s4b))
+  f20 @s5
+  f21 @s6
+  f22 @s7
+  f23 @s8
+
+  ctlc C-up
+  srch M-spc
+)
+(deflayer base
+  _     brdn  brup  @ctlc @srch f5    f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     bspc
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fnlA _     @lalt @lmet             @spl              @rmet @ralt
+              @f16  @f17                                @f18  @f19
+              @f20  @f21                                @f22  @f23
+)
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     1     2     3     4     5     6     7     8     9     0     _     _     _
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght _     _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+              _     _                                   _     _
+              _     _                                   _     _
+)
+(deflayer function-apple
+  XX    f1    f2    f3    f4    f5    f6    f7    f8    f9    f10   f11   f12
+
+  XX    f11   f12   f13   f14   f15   f16   f17   f18   f19   f20   f21   f22   XX
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX
+  XX    XX    XX    XX                XX                XX    XX
+              _     _                                   _     _
+              _     _                                   _     _
+)
+(deflayer function-moonlander
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX
+  XX    f1    f2    f3    f4    f5    f6    f7    f8    f9    f10   XX    XX    XX
+  XX    f11   f12   f13   f14   f15   pp    prev  vold  volu  next  XX    XX
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX
+  XX    XX    XX    XX                XX                XX    XX
+              _     _                                   _     _
+              _     _                                   _     _
+)
+
+;; ad backspace fork
