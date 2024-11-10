@@ -14,7 +14,7 @@
   lsft  z     x     c     v     b     n     m     ,     .     /     rsft
   fn    lctl  lalt  lmet              spc               rmet  ralt
         f16   f17   f18                                 f19   f20
-              f21   f22                                 f23   f24
+                    f21                                 f22
 )
 (defvar
   tap-time 180
@@ -22,7 +22,8 @@
 )
 (defalias
   spr (layer-while-held super)
-  spl (tap-hold 0 $hold-time spc @spr)
+  sprs (tap-hold 0 $hold-time spc @spr)
+  sprx (tap-hold 0 $hold-time XX @spr)
   fna (tap-hold $tap-time $hold-time fn (layer-while-held fn-apple))
 
   meh (multi lsft lalt lctl)
@@ -31,7 +32,12 @@
   ;; built-in fn row restores ;;
   ctlc C-up
   srch M-spc
+  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+  ;; action buttons ;;
+  f5 (multi @hypr m)
+  f6 (multi @hypr n)
+  ;;;;;;;;;;;;;;;;;;;;
 
   ;; base home row ;;
   esc (tap-hold $tap-time $hold-time esc @hypr)
@@ -84,12 +90,7 @@
   s2 (multi @hypr e)
   s3 (multi @hypr c)
   s4 (caps-word 2000)
-  s5 (multi @hypr n)
-  
-  s6 (multi lmet z)
-  s7 XX
-  s8 XX
-  s9 (multi lmet lsft z)
+  s5 (multi @hypr p)
 
   lctl (tap-hold $tap-time $hold-time @s1 lctl)
   lalt (tap-hold $tap-time $hold-time @s2 lalt)
@@ -103,22 +104,20 @@
   f19 (tap-hold $tap-time $hold-time @s4 (layer-while-held fn-moonlander))
   f20 @s5
 
-  f21 @s6
-  f22 @s7
-  f23 @s8
-  f24 @s9
+  f21 (multi lmet z)
+  f22 (multi lmet lsft z)
   ;;;;;;;;;;;;;;;;;;;;;;;;;;
 )
 (deflayer base
-  _     brdn  brup  @ctlc @srch f5    f6    prev  pp    next  mute  vold  volu
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
 
   _     _     _     _     _     _     _     _     _     _     _     _     _     _
   _     _     _     _     _     _     _     _     _     _     _     _     _     _
   @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
   @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
-  @fna @lctl @lalt @lmet             @spl              @rmet @ralt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
         @f16  @f17  @f18                                @f19  @f20
-              @f21  @f22                                @f23  @f24
+                    @f21                                @f22
 )
 (deflayer super
   _     _     _     _     _     _     _     _     _     _     _     _     _
@@ -129,7 +128,7 @@
   _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
   _     _     _     _                 _                 _     _
         _     _     _                                   _     _
-              _     _                                   _     _
+                    _                                   _ 
 )
 (deflayer fn-apple
   _     f1    f2    f3    f4    f5    f6    f7    f8    f9    f10   f11   f12
@@ -138,9 +137,9 @@
   _     XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX
   _     lsft  lctl  lalt  lmet  @meh  @meh  rmet  ralt  rctl  rsft  @hypr _
   _     XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX
-  _     _     _     _                 @spr              _     _ 
+  _     _     _     _                 @sprx             _     _ 
         _     _     _                                   _     _
-              _     _                                   _     _
+                    _                                   _
 )
 (deflayer fn-moonlander
   _     _     _     _     _     _     _     _     _     _     _     _     _ 
@@ -149,7 +148,7 @@
   _     f1    f2    f3    f4    f5    f6    f7    f8    f9    f10   XX    XX    XX
   _     @f11  @f12  @f13  @f14  @f15  @pp   @prev @vold @volu @next @mute  _
   _     XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX
-  _     XX    XX    XX                @spr              XX    XX
+  _     XX    XX    XX                @sprx             XX    XX
         _     _     _                                   _     _
-              _     _                                   _     _
+                    _                                   _
 )
