@@ -1,0 +1,1 @@
+cat password.txt | (nohup sudo -S ~/mods/kanata/kanata_macos_arm64 --cfg ~/mods/kanata/keymap.kbd &) || echo ERROR

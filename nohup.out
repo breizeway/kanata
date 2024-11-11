@@ -1,0 +1,1853 @@
+Password:2024-11-11T10:08:12.998174-08:00 [0m[34m[INFO] [0mkanata v1.6.1 starting
+2024-11-11T10:08:12.99884-08:00 [0m[34m[INFO] [0mprocess unmapped keys: true
+2024-11-11T10:08:12.998917-08:00 [0m[34m[INFO] [0mNOTE: kanata was compiled to never allow cmd
+2024-11-11T10:08:12.999385-08:00 [0m[34m[INFO] [0mconfig file is valid
+2024-11-11T10:08:12.999398-08:00 [0m[34m[INFO] [0mSleeping for 2s. Please release all keys and don't press additional ones. Run kanata with --help to see how understand more and how to disable this sleep.
+2024-11-11T10:08:15.00206-08:00 [0m[34m[INFO] [0mentering the processing loop
+2024-11-11T10:08:15.002257-08:00 [0m[34m[INFO] [0mentering the event loop
+2024-11-11T10:08:15.002309-08:00 [0m[34m[INFO] [0mInit: catching only releases and sending immediately
+IOHIDDeviceOpen error: (iokit/common) exclusive access and device already open
+IOHIDDeviceOpen error: (iokit/common) exclusive access and device already open
+IOHIDDeviceOpen error: (iokit/common) exclusive access and device already open
+2024-11-11T10:08:15.126576-08:00 [0m[31m[ERROR] [0mfailed to open keyboard device(s): Couldn't register any device
+
+
+Press enter to exit
+Error: failed to open keyboard device(s): Couldn't register any device
+libc++abi: terminating
+Password:2024-11-11T10:10:35.988153-08:00 [0m[34m[INFO] [0mkanata v1.6.1 starting
+2024-11-11T10:10:35.989019-08:00 [0m[34m[INFO] [0mprocess unmapped keys: true
+2024-11-11T10:10:35.989116-08:00 [0m[34m[INFO] [0mNOTE: kanata was compiled to never allow cmd
+2024-11-11T10:10:35.989611-08:00 [0m[34m[INFO] [0mconfig file is valid
+2024-11-11T10:10:35.98966-08:00 [0m[34m[INFO] [0mSleeping for 2s. Please release all keys and don't press additional ones. Run kanata with --help to see how understand more and how to disable this sleep.
+2024-11-11T10:10:37.99126-08:00 [0m[34m[INFO] [0mentering the processing loop
+2024-11-11T10:10:37.991525-08:00 [0m[34m[INFO] [0mentering the event loop
+2024-11-11T10:10:37.991619-08:00 [0m[34m[INFO] [0mInit: catching only releases and sending immediately
+connected
+driver_activated 1
+driver_connected 0
+driver_version_mismatched 0
+2024-11-11T10:10:38.621136-08:00 [0m[34m[INFO] [0mStarting kanata proper
+2024-11-11T10:10:38.621326-08:00 [0m[34m[INFO] [0mYou may forcefully exit kanata by pressing lctl+spc+esc at any time. These keys refer to defsrc input, meaning BEFORE kanata remaps keys.
+driver_connected 1
+2024-11-11T10:11:47.463337-08:00 [0m[34m[INFO] [0mpressed LControl+Space+Escape, exiting
+thread 'main' panicked at src/kanata/mod.rs:2046:13:
+pressed LControl+Space+Escape, exiting
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+Password:Sorry, try again.
+Password:
+sudo: no password was provided
+sudo: 1 incorrect password attempt
+Password:Sorry, try again.
+Password:
+sudo: no password was provided
+sudo: 1 incorrect password attempt
+Password:2024-11-11T10:26:13.595599-08:00 [0m[34m[INFO] [0mkanata v1.6.1 starting
+2024-11-11T10:26:13.596151-08:00 [0m[34m[INFO] [0mprocess unmapped keys: true
+2024-11-11T10:26:13.59623-08:00 [0m[34m[INFO] [0mNOTE: kanata was compiled to never allow cmd
+2024-11-11T10:26:13.596683-08:00 [0m[34m[INFO] [0mconfig file is valid
+2024-11-11T10:26:13.596695-08:00 [0m[34m[INFO] [0mSleeping for 2s. Please release all keys and don't press additional ones. Run kanata with --help to see how understand more and how to disable this sleep.
+2024-11-11T10:26:15.597114-08:00 [0m[34m[INFO] [0mentering the processing loop
+2024-11-11T10:26:15.597286-08:00 [0m[34m[INFO] [0mentering the event loop
+2024-11-11T10:26:15.597329-08:00 [0m[34m[INFO] [0mInit: catching only releases and sending immediately
+connected
+driver_activated 1
+driver_connected 0
+driver_version_mismatched 0
+2024-11-11T10:26:16.237662-08:00 [0m[34m[INFO] [0mStarting kanata proper
+2024-11-11T10:26:16.237709-08:00 [0m[34m[INFO] [0mYou may forcefully exit kanata by pressing lctl+spc+esc at any time. These keys refer to defsrc input, meaning BEFORE kanata remaps keys.
+driver_connected 1
+2024-11-11T10:26:44.257565-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:26:44.58378-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:26:47.051506-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:26:47.560883-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:26:48.766006-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:26:48.895706-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:26:55.008049-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:26:55.732986-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:26:56.304455-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:26:57.146984-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:27:06.132162-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:27:06.255149-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:27:40.808436-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:27:40.910778-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:27:44.523363-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:27:44.694171-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:27:47.376986-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:27:47.571228-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:28:04.549823-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:28:05.602512-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:28:21.293463-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:28:21.440738-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:28:52.911847-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:28:53.078587-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:28:57.06712-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:28:57.180297-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:29:04.733023-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:29:04.908371-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:29:06.802609-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:29:07.953738-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:29:27.08716-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:29:27.301859-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:29:28.199702-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:29:28.376445-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:29:30.648797-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:29:30.808786-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:29:35.428781-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:29:35.582281-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:29:42.806788-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:29:43.053786-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:29:52.079617-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:29:52.662844-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:29:53.79861-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:29:53.977995-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:29:59.890469-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:30:02.859848-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:30:06.224258-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:30:10.967015-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:30:16.754079-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:30:16.891705-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:30:26.499079-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:30:27.50717-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:30:28.420321-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:30:28.79122-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:31:01.519989-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:31:06.008901-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:31:09.65228-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:31:11.58633-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:31:12.294459-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:31:12.472142-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:31:24.152854-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:31:25.202301-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:31:25.895673-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:31:26.077213-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:31:34.320744-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:31:34.323476-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:31:43.32142-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:31:44.254844-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:31:47.663962-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:31:48.043716-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:31:59.305779-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:31:59.308472-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:32:08.248812-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:32:09.323555-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:32:10.091347-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:32:10.94777-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:32:12.132907-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:32:12.595762-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:32:14.910991-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:32:17.438602-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:32:36.54937-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:32:36.67961-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:32:45.51782-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:32:47.527221-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:33:26.662305-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:33:27.225795-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:33:28.995718-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:33:29.361851-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:33:41.745767-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:33:41.862545-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:33:49.108862-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:33:49.28345-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:33:50.655008-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:33:51.331613-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:33:52.159878-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:33:52.476793-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:33:54.063018-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:33:54.251821-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:34:09.400019-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:34:09.569851-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:34:12.954775-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:34:13.085107-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:34:16.722821-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:34:16.856016-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:34:28.825441-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:34:28.829553-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:34:51.629395-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:34:53.320509-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:34:57.007774-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:34:57.216439-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:35:04.017821-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:35:04.23541-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:35:06.991481-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:35:07.137611-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:35:11.01791-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:35:11.1007-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:35:21.182011-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:35:24.322828-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:35:24.937695-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:35:24.941686-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:35:28.00612-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:35:28.257626-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:35:29.868688-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:35:30.069728-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:35:30.577078-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:35:32.010761-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:35:32.352005-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:35:32.448189-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:35:33.220874-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:35:33.223695-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:38:18.233181-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:38:20.711045-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:38:39.344029-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:38:40.859085-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:38:47.353661-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:38:50.042266-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
+2024-11-11T10:38:50.609855-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer super
+  _     _     _     _     _     _     _     _     _     _     _     _     _
+
+  XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX    XX     _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
+  _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
+  _     _     _     _                 _                 _     _
+        _     _     _                                   _     _
+                    _                                   _ 
+)
+2024-11-11T10:38:50.760211-08:00 [0m[34m[INFO] [0mEntered layer:
+
+(deflayer base
+  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
+  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
+        @f16  @f17  @f18                                @f19  @f20
+                    @f21                                @f22
+)
