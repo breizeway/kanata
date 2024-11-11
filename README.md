@@ -15,6 +15,7 @@
   - Set shell to `zsh`
   - Add the script `cd <absolute path to this repo> && zsh start-kanata.zsh`
 - Give the automator app input monitoring permissions at `System Settings > Privacy & Security > Input Monitoring` (macOS 14 Sonoma) (you will need to remove and add permissions again any time you change the script in the app)
+- Add the app to login items in System Settings
 - Open the app to start Kanata.
 - Output will be saved to `./nohup.out`.
 - You should see the app running in your menu bar
