@@ -109,7 +109,7 @@
   ;;;;;;;;;;;;;;;;;;;;;;;;;;
 )
 (deflayer base
-  _     brdn  brup  @ctlc @srch @f5   @f6    prev  pp    next  mute  vold  volu
+  _     brdn  brup  @ctlc @srch @f5   @f6   prev  pp    next  mute  vold  volu
 
   _     _     _     _     _     _     _     _     _     _     _     _     _     _
   _     _     _     _     _     _     _     _     _     _     _     _     _     _
