@@ -86,11 +86,11 @@
   ;;;;;;;;;;;;;;;;;;;;;;;;;
 
   ;; bottom row shortcuts ;;
-  s1 mute
-  s2 (multi @hypr e)
+  s1 (multi @hypr e)
+  s2 (multi @hypr p)
   s3 (multi @hypr c)
   s4 (caps-word 2000)
-  s5 (multi @hypr p)
+  s5 mute
 
   lctl (tap-hold $tap-time $hold-time @s1 lctl)
   lalt (tap-hold $tap-time $hold-time @s2 lalt)
