@@ -87,19 +87,20 @@
 
   ;; bottom row shortcuts ;;
   s1 (multi @hypr e)
-  s2 (multi @hypr p)
+  s2 (multi @hypr ;)
+  s2b (multi @hypr p)
   s3 (multi @hypr c)
   s4 (caps-word 2000)
   s5 mute
 
   lctl (tap-hold $tap-time $hold-time @s1 lctl)
-  lalt (tap-hold $tap-time $hold-time @s2 lalt)
+  lalt (tap-dance-eager $tap-time ((tap-hold $tap-time $hold-time @s2 lalt) @s2b))
   lmet (tap-hold $tap-time $hold-time @s3 lmet)
   rmet (tap-hold $tap-time $hold-time @s4 rmet)
   ralt (tap-hold $tap-time $hold-time @s5 ralt)
 
   f16 @s1
-  f17 @s2
+  f17 (tap-dance-eager $tap-time (@s2 @s2b))
   f18 (tap-hold $tap-time $hold-time @s3 (layer-while-held fn-moonlander))
   f19 (tap-hold $tap-time $hold-time @s4 (layer-while-held fn-moonlander))
   f20 @s5
