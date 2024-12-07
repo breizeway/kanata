@@ -17,14 +17,15 @@
                     f21                                 f22
 )
 (defvar
-  tap-time 180
-  hold-time 180
+  tap_time 180
+  hold_time 180
+  tap_dance_time 360
 )
 (defalias
   spr (layer-while-held super)
-  sprs (tap-hold 0 $hold-time spc @spr)
-  sprx (tap-hold 0 $hold-time XX @spr)
-  fna (tap-hold $tap-time $hold-time fn (layer-while-held fn-apple))
+  sprs (tap-hold 0 $hold_time spc @spr)
+  sprx (tap-hold 0 $hold_time XX @spr)
+  fna (tap-hold $tap_time $hold_time fn (layer-while-held fn-apple))
 
   meh (multi lsft lalt lctl)
   hypr (multi lsft lalt lctl lmet)
@@ -40,49 +41,49 @@
   ;;;;;;;;;;;;;;;;;;;;
 
   ;; base home row ;;
-  esc (tap-hold $tap-time $hold-time esc @hypr)
-  a (tap-hold $tap-time $hold-time a lsft)
-  s (tap-hold $tap-time $hold-time s lctl)
-  d (tap-hold $tap-time $hold-time d lalt)
-  f (tap-hold $tap-time $hold-time f lmet)
-  g (tap-hold $tap-time $hold-time g @meh)
-  h (tap-hold $tap-time $hold-time h @meh)
-  j (tap-hold $tap-time $hold-time j rmet)
-  k (tap-hold $tap-time $hold-time k ralt)
-  l (tap-hold $tap-time $hold-time l rctl)
-  ; (tap-hold $tap-time $hold-time ; rsft)
-  ' (tap-hold $tap-time $hold-time ' @hypr)
-  ret (tap-hold $tap-time $hold-time ret @hypr)
+  esc (tap-hold $tap_time $hold_time esc @hypr)
+  a (tap-hold $tap_time $hold_time a lsft)
+  s (tap-hold $tap_time $hold_time s lctl)
+  d (tap-hold $tap_time $hold_time d lalt)
+  f (tap-hold $tap_time $hold_time f lmet)
+  g (tap-hold $tap_time $hold_time g @meh)
+  h (tap-hold $tap_time $hold_time h @meh)
+  j (tap-hold $tap_time $hold_time j rmet)
+  k (tap-hold $tap_time $hold_time k ralt)
+  l (tap-hold $tap_time $hold_time l rctl)
+  ; (tap-hold $tap_time $hold_time ; rsft)
+  ' (tap-hold $tap_time $hold_time ' @hypr)
+  ret (tap-hold $tap_time $hold_time ret @hypr)
   ;;;;;;;;;;;;;;;;;;;
 
   ;; super home row ;;
-  ` (tap-hold $tap-time $hold-time ` lsft)
-  \ (tap-hold $tap-time $hold-time \ lctl)
-  - (tap-hold $tap-time $hold-time - lalt)
-  = (tap-hold $tap-time $hold-time = lmet)
-  lft (tap-hold $tap-time $hold-time lft rmet)
-  down (tap-hold $tap-time $hold-time down ralt)
-  up (tap-hold $tap-time $hold-time up rctl)
-  rght (tap-hold $tap-time $hold-time rght rsft)
+  ` (tap-hold $tap_time $hold_time ` lsft)
+  \ (tap-hold $tap_time $hold_time \ lctl)
+  - (tap-hold $tap_time $hold_time - lalt)
+  = (tap-hold $tap_time $hold_time = lmet)
+  lft (tap-hold $tap_time $hold_time lft rmet)
+  down (tap-hold $tap_time $hold_time down ralt)
+  up (tap-hold $tap_time $hold_time up rctl)
+  rght (tap-hold $tap_time $hold_time rght rsft)
   ;;;;;;;;;;;;;;;;;;;;
 
   ;; fn-moonlander home row ;;
-  f11 (tap-hold $tap-time $hold-time f11 lsft)
-  f12 (tap-hold $tap-time $hold-time f12 lctl)
-  f13 (tap-hold $tap-time $hold-time f13 lalt)
-  f14 (tap-hold $tap-time $hold-time f14 lmet)
-  f15 (tap-hold $tap-time $hold-time f15 @meh)
-  pp (tap-hold $tap-time $hold-time pp @meh)
-  prev (tap-hold $tap-time $hold-time prev rmet)
-  vold (tap-hold $tap-time $hold-time vold ralt)
-  volu (tap-hold $tap-time $hold-time volu rctl)
-  next (tap-hold $tap-time $hold-time next rsft)
-  mute (tap-hold $tap-time $hold-time mute @hypr)
+  f11 (tap-hold $tap_time $hold_time f11 lsft)
+  f12 (tap-hold $tap_time $hold_time f12 lctl)
+  f13 (tap-hold $tap_time $hold_time f13 lalt)
+  f14 (tap-hold $tap_time $hold_time f14 lmet)
+  f15 (tap-hold $tap_time $hold_time f15 @meh)
+  pp (tap-hold $tap_time $hold_time pp @meh)
+  prev (tap-hold $tap_time $hold_time prev rmet)
+  vold (tap-hold $tap_time $hold_time vold ralt)
+  volu (tap-hold $tap_time $hold_time volu rctl)
+  next (tap-hold $tap_time $hold_time next rsft)
+  mute (tap-hold $tap_time $hold_time mute @hypr)
   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
   ;; built-in shift keys ;;
-  lsrt (tap-hold $tap-time $hold-time ret lsft)
-  rsrt (tap-hold $tap-time $hold-time ret rsft)
+  lsrt (tap-hold $tap_time $hold_time ret lsft)
+  rsrt (tap-hold $tap_time $hold_time ret rsft)
   ;;;;;;;;;;;;;;;;;;;;;;;;;
 
   ;; bottom row shortcuts ;;
@@ -91,18 +92,19 @@
   s2b (multi @hypr p)
   s3 (multi @hypr c)
   s4 (caps-word 2000)
+  s4b caps
   s5 mute
 
-  lctl (tap-hold $tap-time $hold-time @s1 lctl)
-  lalt (tap-dance-eager $tap-time ((tap-hold $tap-time $hold-time @s2 lalt) @s2b))
-  lmet (tap-hold $tap-time $hold-time @s3 lmet)
-  rmet (tap-hold $tap-time $hold-time @s4 rmet)
-  ralt (tap-hold $tap-time $hold-time @s5 ralt)
+  lctl (tap-hold $tap_time $hold_time @s1 lctl)
+  lalt (tap-dance-eager $tap_dance_time ((tap-hold $tap_time $hold_time @s2 lalt) @s2b))
+  lmet (tap-hold $tap_time $hold_time @s3 lmet)
+  rmet (tap-dance-eager $tap_dance_time ((tap-hold $tap_time $hold_time @s4 rmet) @s4b))
+  ralt (tap-hold $tap_time $hold_time @s5 ralt)
 
   f16 @s1
-  f17 (tap-dance-eager $tap-time (@s2 @s2b))
-  f18 (tap-hold $tap-time $hold-time @s3 (layer-while-held fn-moonlander))
-  f19 (tap-hold $tap-time $hold-time @s4 (layer-while-held fn-moonlander))
+  f17 (tap-dance-eager $tap_dance_time (@s2 @s2b))
+  f18 (tap-hold $tap_time $hold_time @s3 (layer-while-held fn-moonlander))
+  f19 (tap-dance-eager $tap_dance_time ((tap-hold $tap_time $hold_time @s4 (layer-while-held fn-moonlander)) @s4b))
   f20 @s5
 
   f21 (multi lmet z)
