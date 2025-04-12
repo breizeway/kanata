@@ -29,6 +29,8 @@
 
   meh (multi lsft lalt lctl)
   hypr (multi lsft lalt lctl lmet)
+
+  fnes (tap-hold $tap_time $hold_time esc (layer-while-held fn-apple))
   
   ;; built-in fn row restores ;;
   ctlc C-up
@@ -117,7 +119,7 @@
   ;;;;;;;;;;;;;;;;;;;;;;;;;;
 )
 (deflayer base
-  _     brdn  brup  @ctlc @srch @f5   @f6   prev  pp    next  mute  vold  volu
+  @fnes brdn  brup  @ctlc @srch @f5   @f6   prev  pp    next  mute  vold  volu
 
   _     _     _     _     _     _     _     _     _     _     _     _     _     _
   _     _     _     _     _     _     _     _     _     _     _     _     _     _
