@@ -19,7 +19,7 @@
 (defvar
   tap_time 180
   hold_time 180
-  tap_dance_time 360
+  tap_dance_eager_time 360
 )
 (defalias
   spr (layer-while-held super)
@@ -83,8 +83,10 @@
   mute (tap-hold $tap_time $hold_time mute @hypr)
   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-  ;; built-in shift keys ;;
+  ;; second row ;;
   lsrt (tap-hold $tap_time $hold_time ret lsft)
+  c (tap-dance $tap_time (c (tap-hold $tap_time $hold_time (macro c c) (macro M-c))))
+  v (tap-dance $tap_time (v (tap-hold $tap_time $hold_time (macro v v) (macro M-v))))
   rsrt (tap-hold $tap_time $hold_time ret rsft)
   ;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -103,15 +105,15 @@
   s5 mute
 
   lctl (tap-hold $tap_time $hold_time @s1 lctl)
-  lalt (tap-dance-eager $tap_dance_time ((tap-hold $tap_time $hold_time @s2 lalt) @s2b))
+  lalt (tap-dance-eager $tap_dance_eager_time ((tap-hold $tap_time $hold_time @s2 lalt) @s2b))
   lmet (tap-hold $tap_time $hold_time @s3 lmet)
-  rmet (tap-dance-eager $tap_dance_time ((tap-hold $tap_time $hold_time @s4 rmet) @s4b))
+  rmet (tap-dance-eager $tap_dance_eager_time ((tap-hold $tap_time $hold_time @s4 rmet) @s4b))
   ralt (tap-hold $tap_time $hold_time @s5 ralt)
 
   f16 @s1
-  f17 (tap-dance-eager $tap_dance_time (@s2 @s2b))
+  f17 (tap-dance-eager $tap_dance_eager_time (@s2 @s2b))
   f18 (tap-hold $tap_time $hold_time @s3 (layer-while-held fn-moonlander))
-  f19 (tap-dance-eager $tap_dance_time ((tap-hold $tap_time $hold_time @s4 (layer-while-held fn-moonlander)) @s4b))
+  f19 (tap-dance-eager $tap_dance_eager_time ((tap-hold $tap_time $hold_time @s4 (layer-while-held fn-moonlander)) @s4b))
   f20 @s5
 
   f21 (multi lmet z)
@@ -124,7 +126,7 @@
   _     _     _     _     _     _     _     _     _     _     _     _     _     _
   _     _     _     _     _     _     _     _     _     _     _     _     _     _
   @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
-  @lsrt _     _     _     _     _     _     _     _     _     _     @rsrt
+  @lsrt _     _     @c    @v    _     _     _     _     _     _     @rsrt
   @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
         @f16  @f17  @f18                                @f19  @f20
                     @f21                                @f22
