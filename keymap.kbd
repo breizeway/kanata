@@ -85,8 +85,8 @@
 
   ;; second row ;;
   lsrt (tap-hold $tap_time $hold_time ret lsft)
-  c (tap-dance $tap_time (c (tap-hold $tap_time $hold_time (macro c c) (macro M-c))))
-  v (tap-dance $tap_time (v (tap-hold $tap_time $hold_time (macro v v) (macro M-v))))
+  c (tap-hold $tap_time $hold_time c (macro M-c))
+  v (tap-hold $tap_time $hold_time v (macro M-v))
   rsrt (tap-hold $tap_time $hold_time ret rsft)
   ;;;;;;;;;;;;;;;;;;;;;;;;;
 
