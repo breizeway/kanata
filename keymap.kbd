@@ -19,7 +19,7 @@
 (defvar
   tap_time 180
   hold_time 180
-  hold_macro_time 360
+  hold_long_time 360
   tap_dance_eager_time 360
 )
 (defalias
@@ -86,9 +86,9 @@
 
   ;; second row ;;
   lsrt (tap-hold $tap_time $hold_time ret lsft)
-  x (tap-hold $tap_time $hold_macro_time x (macro M-x))
-  c (tap-hold $tap_time $hold_macro_time c (macro M-c))
-  v (tap-hold $tap_time $hold_macro_time v (macro M-v))
+  x (tap-hold $tap_time $hold_long_time x (macro M-x))
+  c (tap-hold $tap_time $hold_long_time c (macro M-c))
+  v (tap-hold $tap_time $hold_long_time v (macro M-v))
   rsrt (tap-hold $tap_time $hold_time ret rsft)
   ;;;;;;;;;;;;;;;;;;;;;;;;;
 
