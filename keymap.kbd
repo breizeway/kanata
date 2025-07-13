@@ -19,7 +19,7 @@
 (defvar
   tap_time 180
   hold_time 180
-  hold_long_time 360
+  hold_long_time 270
   tap_dance_eager_time 360
 )
 (defalias
