@@ -43,6 +43,10 @@
   f6 (multi @hypr n)
   ;;;;;;;;;;;;;;;;;;;;
 
+  ;; top row ;;
+  bsl (tap-hold $tap_time $hold_long_time \ (macro (M-A-C-S-e))) ;; hyper e
+  ;;;;;;;;;;;;;;;;;;;;;;;;;
+
   ;; base home row ;;
   esc (tap-hold $tap_time $hold_time esc @hypr)
   a (tap-hold $tap_time $hold_time a lsft)
@@ -84,7 +88,7 @@
   mute (tap-hold $tap_time $hold_time mute @hypr)
   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-  ;; second row ;;
+  ;; bottom row ;;
   lsrt (tap-hold $tap_time $hold_time ret lsft)
   x (tap-hold $tap_time $hold_long_time x (macro M-x))
   c (tap-hold $tap_time $hold_long_time c (macro M-c))
@@ -126,7 +130,7 @@
   @fnes brdn  brup  @ctlc @srch @f5   @f6   prev  pp    next  mute  vold  volu
 
   _     _     _     _     _     _     _     _     _     _     _     _     _     _
-  _     _     _     _     _     _     _     _     _     _     _     _     _     _
+  _     _     _     _     _     _     _     _     _     _     _     _     _     @bsl
   @esc  @a    @s    @d    @f    @g    @h    @j    @k    @l    @;    @'    @ret
   @lsrt _     @x    @c    @v    _     _     _     _     _     _     @rsrt
   @fna @lctl @lalt @lmet             @sprs              @rmet @ralt
@@ -136,8 +140,8 @@
 (deflayer super
   _     _     _     _     _     _     _     _     _     _     _     _     _
 
-  XX    _     _     _     _     _     _     _     _     _     _     _     _      _
-  _     1     2     3     4     5     6     7     8     9     0     XX    XX    XX
+  XX    _     _     _     _     _     _     _     _     _     _     _     _    _
+  _     1     2     3     4     5     6     7     8     9     0     XX    XX   XX
   _     @`    @\    @-    @=    @meh  @meh  @lft  @down @up   @rght @hypr _
   _     XX    XX    [     ]     XX    XX    XX    pgdn  pgup  XX    _
   _     _     _     _                 _                 _     _
