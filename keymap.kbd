@@ -44,7 +44,7 @@
   ;;;;;;;;;;;;;;;;;;;;
 
   ;; top row ;;
-  bsl (tap-hold $tap_time $hold_long_time \ (macro (M-A-C-S-e))) ;; hyper e
+  bsl (tap-hold $tap_time $hold_long_time \ (macro (M-A-C-S-\))) ;; hyper \
   ;;;;;;;;;;;;;;;;;;;;;;;;;
 
   ;; base home row ;;
